@@ -3,7 +3,7 @@ import pandas as pd
 # 画图
 plt.figure(figsize=(20, 10))
 
-data_12k_1797_10c = pd.read_csv("DataSet/origin_sample_data.csv")
+data_12k_1797_10c = pd.read_csv("../DataSet/origin_sample_data.csv")
 # 循环遍历每列数据并生成子图
 for index, column in enumerate(data_12k_1797_10c.columns):
     plt.subplot(5, 2, index + 1)  # 5行2列的子图排列方式
