@@ -43,10 +43,10 @@ def sliding_window_sampling(csv_path, win_size=512, overlap_ratio=0.5,
 
     return X_train_scaled, X_val_scaled, X_test_scaled, y_train, y_val, y_test
 
-if __name__ == '__main__':
-    csv_path = '../DataSet/origin_sample_data.csv'
-    X_train, X_val, X_test, y_train, y_val, y_test = sliding_window_sampling(csv_path)
-
-    print("训练集样本数：", len(y_train))
-    print("验证集样本数：", len(y_val))
-    print("测试集样本数：", len(y_test))
+# if __name__ == '__main__':
+#     csv_path = '../DataSet/origin_sample_data.csv'
+#     X_train, X_val, X_test, y_train, y_val, y_test = sliding_window_sampling(csv_path)
+#
+#     print("训练集样本数：", len(y_train))
+#     print("验证集样本数：", len(y_val))
+#     print("测试集样本数：", len(y_test))

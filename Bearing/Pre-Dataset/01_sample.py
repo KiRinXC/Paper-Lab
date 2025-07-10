@@ -32,7 +32,7 @@ for index in range(10):
     data_list = data[data_columns[index]].reshape(-1)
 
     # 截取统一长度（如 102656）
-    data_segment = data_list[:102656].reshape(-1, 1)
+    data_segment = data_list[:103424].reshape(-1, 1)
 
     # 这里不进行标准化（Z-score）
     # scaled_segment = scaler.fit_transform(data_segment).flatten()

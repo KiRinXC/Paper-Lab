@@ -5,3 +5,5 @@ matplotlib
 EMD-signal
 vmdpy
 scikit-learn
+antropy
+PyWavelets
